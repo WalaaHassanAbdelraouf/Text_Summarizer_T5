@@ -7,7 +7,7 @@ A text summarization system using Google's T5-Small transformer model, fine-tune
 This project implements an end-to-end text summarization pipeline that:
 - Preprocesses and cleans news article data
 - Fine-tunes the T5-Small model for summarization
-- Achieves **44.36% ROUGE-1** score on test data
+- Achieves **43.36% ROUGE-L** score on test data
 
 ## 🔬 Model Architecture
 
