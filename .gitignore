@@ -1,0 +1,28 @@
+# Data
+data/*.csv
+*.parquet
+
+# Models
+models/
+*.pt
+*.bin
+*.safetensors
+
+# Outputs
+results/
+logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
