@@ -2,14 +2,14 @@
 
 A text summarization system using Google's T5-Small transformer model, fine-tuned on news articles to generate concise headlines.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements an end-to-end text summarization pipeline that:
 - Preprocesses and cleans news article data
 - Fine-tunes the T5-Small model for summarization
 - Achieves **43.36% ROUGE-L** score on test data
 
-## 🔬 Model Architecture
+## Model Architecture
 
 - **Base Model**: T5-Small (60M parameters)
 - **Task**: Sequence-to-sequence text summarization
@@ -25,7 +25,7 @@ This project implements an end-to-end text summarization pipeline that:
 - **Gradient Checkpointing**: Enabled for memory efficiency
 - **Evaluation Metric**: ROUGE (F1 scores)
 
-## 📈 Training Process
+## Training Process
 
 1. **Data Preprocessing**: 
    - Remove duplicates and special characters
@@ -46,7 +46,7 @@ This project implements an end-to-end text summarization pipeline that:
    - ROUGE-1, ROUGE-2, ROUGE-L metrics
    - Separate validation and test sets
 
-## 🛠️ Advanced Features
+## Advanced Features
 
 ### Memory Optimization
 - Gradient checkpointing
@@ -54,7 +54,7 @@ This project implements an end-to-end text summarization pipeline that:
 - Gradient accumulation
 - Dynamic batch padding
 
-## 📊 Results
+## Results
 
 | Metric  | Validation | Test       |
 |---------|----------- |------------|
