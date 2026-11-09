@@ -1,4 +1,4 @@
-# T5 Text Summarization Project 📝
+# T5 Text Summarization Project 
 
 A text summarization system using Google's T5-Small transformer model, fine-tuned on news articles to generate concise headlines.
 
